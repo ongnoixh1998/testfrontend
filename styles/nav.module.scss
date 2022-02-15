@@ -1,0 +1,13 @@
+.nav{
+  gap: 5px;
+  .navItem{
+    padding: 0 20px;
+    line-height: 90px;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    &.active{
+      border-bottom: 1px solid #fff;
+    }
+  }
+}

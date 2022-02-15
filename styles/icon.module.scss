@@ -1,0 +1,38 @@
+.icon{
+  &:before{
+    content: '';
+  }
+  position: relative;
+  display: block;
+  width: 52px;
+  height: 48px;
+  margin-bottom: 8px;
+  background: url(https://cdn.kuaidi100.com/images/www/sp-index.png) -4px -201px #ffffff no-repeat;
+  border-radius: 2px;
+  box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 15%);
+  border: 1px solid #dedede \9;
+  cursor: pointer;
+  vertical-align: middle;
+
+  &.service{
+    background-position: -58px -201px;
+  }
+  &.h5{
+    background-position: -112px -201px;
+  }
+  &.top{
+    background-position: -4px -201px;
+  }
+  &.all{
+    background-position: -4px -40px;
+  }
+  &.time{
+    background-position: -46px -40px;
+  }
+  &.network{
+    background-position: -88px -40px;
+  }
+  &.enterprise{
+    background-position: -5px -82px;
+  }
+}

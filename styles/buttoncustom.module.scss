@@ -1,0 +1,18 @@
+.buttonRing{
+  max-width: 550px;
+  border: 10px solid transparent;
+  background-clip: content-box;
+  box-shadow: 0 0 0 1px #ddd;
+  border-radius: 42px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  line-height: 56px;
+  font-size: 32px;
+  &.orange{
+    background-color: #f56e14;
+  }
+  &.blue{
+    background-color: #3783ef;
+  }
+}
